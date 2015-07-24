@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"jsx": "react",
+		"module": "amd"
+	},
+	"compileOnSave": true,
+	"files": [
+		"search.tsx",
+		"../fetcher/types.d.ts",
+		"../typings/tsd.d.ts"
+	]
+}

@@ -1,0 +1,78 @@
+body {
+	position: relative;
+}
+
+input.query {
+	font-size: 200%;
+
+}
+
+div#loading {
+	font-family: 'Helvetica';
+	background: white;
+	left: 20%;
+	right: 20%;
+	top: 20%;
+	font-size: 300%;
+	padding: 1.2em;
+	text-align: center;
+	border: solid black 2px;
+	position: absolute;
+}
+
+
+div.result {
+	display: block;
+	position: relative;	
+	height: 3.4em;
+	width: 90%;
+	max-width: 60em;
+	border: solid black 1px;
+}
+
+div.id {
+	position: absolute;
+	top: 0.2em;
+	left: 0px;
+	width: 4em;
+	padding-left: 1em;
+}
+
+div.title {
+	position: absolute;
+	left: 4em;
+	top: 0.2em;
+}
+
+div.by {
+	position: absolute;
+	top: 50%;
+	left: 4.5em;
+}
+
+div.when {
+	position: absolute;
+	top: 50%;
+}
+
+div.labels {
+	position: absolute;
+	top: 0.2em;
+	bottom: 0px;
+	width: 14em;
+	right: 4em;
+	text-align: right;
+}
+
+div.comments {
+	position: absolute;
+	width: 4em;
+	left: 0px;
+	bottom: 0.2em;
+	text-align: center;
+}
+
+div#results div.result:nth-child(odd) {
+	background: #F1F1F6;
+}
+
